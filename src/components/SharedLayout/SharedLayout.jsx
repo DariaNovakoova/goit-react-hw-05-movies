@@ -1,4 +1,3 @@
-import styles from './shared-layout.module.css';
 import { Outlet } from 'react-router-dom';
 import { Suspense } from 'react';
 
