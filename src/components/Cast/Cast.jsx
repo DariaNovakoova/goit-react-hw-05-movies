@@ -35,7 +35,7 @@ const Cast = () => {
         <img
           className={styles.img}
           src={profile_path ? BASE_URL + profile_path : img}
-          alt="Photo"
+          alt=""
         />
         <h4 className={styles.title}>{character}</h4>
         <p className={styles.text}>{original_name}</p>
