@@ -17,7 +17,7 @@ const Home = () => {
         const respMovies = await getTrending();
         const { results } = respMovies.data;
         setTrending(results?.length ? results : []);
-      } catch {
+      } catch (error) {
         setError(error.message);
       } finally {
         setLoading(false);
